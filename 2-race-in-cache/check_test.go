@@ -11,7 +11,7 @@ import (
 	"testing"
 )
 
-func TestMain(t *testing.T) {
+func TestCache(t *testing.T) {
 	cache := run()
 
 	cacheLen := len(cache.cache)
