@@ -11,7 +11,7 @@ import (
 	"time"
 )
 
-func TestMain(t *testing.T) {
+func TestCrawl(t *testing.T) {
 	fetchSig := fetchSignalInstance()
 
 	start := time.Unix(0, 0)
